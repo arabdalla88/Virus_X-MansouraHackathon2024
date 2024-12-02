@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($result->num_rows > 0) {
         echo "تم تسجيل الدخول بنجاح!";
-        header("Location: index.html?$username");
+        header("Location: https://5nzyexlimuag9appppdappgs4.streamlit.app/?$username");
         exit;
     } else {
         echo "فشل تسجيل الدخول. تحقق من اسم المستخدم وكلمة المرور.";

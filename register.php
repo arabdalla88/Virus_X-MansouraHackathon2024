@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             if ($conn->query($insertQuery) === TRUE) {
                 echo "تم إنشاء الحساب بنجاح!";
-                header("Location: index.html?$username");
+                header("Location: https://5nzyexlimuag9appppdappgs4.streamlit.app/?$username");
                 exit;
             } else {
                 echo "فشل إنشاء الحساب: " . $conn->error;
